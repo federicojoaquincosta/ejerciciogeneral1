@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display:grid; place-items:center;" id="temporizador">
+        <p>How many seconds would you like the countdown timer to start from?</p>
+        <br>
+        <input id="inputHor" type="number" placeholder="Horas">
+        <br>
+        <input id="inputMin" type="number" placeholder="Minutos">
+        <br>
+        <input id="inputSeg" type="number" placeholder="Segundos">
+        <br>
+        <button id="empezar" onclick="contarSeg(); contarMin();">Start Countdown</button>
+        <br>
+        <div id="textohoras"></div>
+        <br>
+        <div id="textominutos"></div>
+        <br>
+        <div id="textosegundos"></div>
+        <br>
+    </div>
+
+
+
+
+    <script src="temporizador.js"></script>
+</body>
+</html>
