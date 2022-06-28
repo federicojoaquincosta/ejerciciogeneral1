@@ -8,7 +8,7 @@
 </head>
 <body>
     <div style="display:grid; place-items:center;" id="temporizador">
-        <p>How many seconds would you like the countdown timer to start from?</p>
+        <h3>Por favor ingrese la cantidad de tiempo para el temporizador</h3>
         <br>
         <input id="inputHor" type="number" placeholder="Horas">
         <br>
@@ -16,7 +16,7 @@
         <br>
         <input id="inputSeg" type="number" placeholder="Segundos">
         <br>
-        <button id="empezar" onclick="contarSeg(); contarMin(); contarHor();">Start Countdown</button>
+        <button id="empezar" onclick="temporizador()">Iniciar Temporizador</button>
         <br>
         <div id="textohoras"></div>
         <br>
@@ -24,6 +24,7 @@
         <br>
         <div id="textosegundos"></div>
         <br>
+
     </div>
 
 
